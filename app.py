@@ -1,9 +1,9 @@
-from flask import flask
+from flask import Flask
 import os
 
 app = Flask(__name__)
 
-@app.route('Hello, Heroku')
+@app.route('/')
 def hello():
   return "Hello, Heroku"
 
